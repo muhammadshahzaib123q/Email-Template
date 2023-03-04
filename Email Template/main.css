@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-bottom: 3px solid blue;
+  
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.text-2,
+.text-3{
+    text-align: center;
+    font-weight: 100;
+    color: grey;
+}
+.img-box{
+    display: flex;
+
+}
+.sub-btn{
+    background-color: #003ce5;
+    color: #f9f9f9;
+    cursor: pointer;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 300px;
+    border: none;
+    transition: all 200ms;
+    font-size: 13px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.sub-btn:hover{
+    background-color: #f9f9f9;
+    color: blue;
+    outline: 1px;
+}
+.notify{
+    font-style: italic;
+    color: grey;
+    opacity: 50;
+}
+.what-logo{
+    border-radius: 50px;
+    margin-top: 20px;
+    background-color: none;
+    /* transition: 0.3s ease-in */
+    
+}
+.what-logo:hover{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.face-logo{
+    /* background-color: transparent;
+    color: white; */
+    /* transition: 0.3s ease-in-out; */
+}
+.face-logo:hover{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.insta-logo:hover{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.linked-logo:hover{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.twitter-logo:hover{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.icon{
+    margin-top: 50px;
+
+}
+.copyright{
+    padding-top: 10px;
+    color: grey;
+    font-size: small;
+    align-items: center;
+    word-spacing: 5px;
+    text-align: center;
+    line-height: 20px;
+}
+.app-logo{
+    margin-bottom: 40px;
+}
